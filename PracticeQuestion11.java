@@ -7,7 +7,7 @@ public class PracticeQuestion11 {
     Else, it returns false.*/
 
     public static boolean isLessThan(int n1, int n2) {
-        return n1 > n2 ? true : false;
+        return n1 < n2 ? true : false;
     }
 
     public static void main(String[] args) {
