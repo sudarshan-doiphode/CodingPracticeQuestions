@@ -28,7 +28,7 @@ public class PracticeQuestion19 {
         } else if (score >= 80 && score <= 100) {
             grade = "A";
         }
-        {
+        else {
             grade = "Invalid";
         }
         return grade;
